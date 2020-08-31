@@ -40,5 +40,5 @@ jobs:
           echo test, and deploy your project
       - name: docker push
         run: |
-          docker push csharp:1.0.0
+          docker push aimvector/csharp:1.0.0
        
